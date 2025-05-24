@@ -42,7 +42,8 @@ a:hover {
     color: #2980b9;
 }
 
-/* Estilo del contenedor principal */
+
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -50,9 +51,15 @@ a:hover {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
 }
 
-/* Estilo para el párrafo de presentación */
+.container {
+    margin-bottom: 30px; 
+  }
+
+
 .intro {
     background-color: #ecf0f1;
     border-left: 5px solid #16a085;
